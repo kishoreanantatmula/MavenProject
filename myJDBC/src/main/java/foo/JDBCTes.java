@@ -12,6 +12,7 @@ public class JDBCTes {
 		
 		
 		try {
+			//Loading the Driver
 			Class.forName("com.mysql.jdbc.Driver");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
